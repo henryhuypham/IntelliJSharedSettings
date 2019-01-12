@@ -1,0 +1,13 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="MAVEN_REPOSITORY" value="/Users/henryhuypham/.m2/repository" />
+    <macro name="KOTLIN_BUNDLED" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/Kotlin/kotlinc" />
+    <macro name="IdeaHomeDir" value="/Applications/IntelliJ IDEA CE.app/Contents" />
+    <macro name="IdeaBuildNumber" value="IC-181.5087.20" />
+    <macro name="IdeaConfigDir" value="/Users/henryhuypham/Library/Preferences/IdeaIC2018.1" />
+    <macro name="IdeaLogsDir" value="/Users/henryhuypham/Library/Logs/IdeaIC2018.1" />
+    <macro name="IdeaPluginsDir" value="/Users/henryhuypham/Library/Application Support/IdeaIC2018.1" />
+    <macro name="ScriptusConfigDir" value="/Users/henryhuypham/Workspace/Facebook/fbsource/fbandroid/scripts/scriptus" />
+    <macro name="ScriptusConfigFile" value="/Users/henryhuypham/Workspace/Facebook/fbsource/fbandroid/scripts/scriptus/default.xml" />
+  </component>
+</application>
