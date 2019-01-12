@@ -5,4 +5,14 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="bsLeft" value="private static int binarySearchLeft(int[] data, int value) {&#10;  int l = 0, r = data.length;&#10;  while (l &lt; r) {&#10;    int mid = (l + r) / 2;&#10;    if (data[mid] &lt; value) {&#10;      l = mid + 1;&#10;    } else {&#10;      r = mid;&#10;    }&#10;  }&#10;&#10;  return l;&#10;}" description="Binary Search for the leftmost item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="bsRight" value="private static int binarySearchRight(int[] data, int value) {&#10;  int l = 0, r = data.length;&#10;  while (l &lt; r) {&#10;    int mid = (l + r) / 2;&#10;    if (data[mid] &lt;= value) {&#10;      l = mid + 1;&#10;    } else {&#10;      r = mid;&#10;    }&#10;  }&#10;&#10;  return l - 1;&#10;}" description="Binary Search for the rightmost item" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
