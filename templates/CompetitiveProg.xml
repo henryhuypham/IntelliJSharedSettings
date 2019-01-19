@@ -15,7 +15,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="clsPair" value="class Pair {&#10;  public int x, y;&#10;&#10;  public Node(int x, int y) {&#10;    this.x = x;&#10;    this.y = y;&#10;  }&#10;}" description="A class to hold a pair of integers" toReformat="true" toShortenFQNames="true">
+  <template name="clsPair" value="class Pair {&#10;  public int x, y;&#10;&#10;  public Pair(int x, int y) {&#10;    this.x = x;&#10;    this.y = y;&#10;  }&#10;}" description="A class to hold a pair of integers" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
