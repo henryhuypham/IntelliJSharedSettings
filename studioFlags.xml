@@ -1,9 +1,0 @@
-<application>
-  <component name="StudioFlags">
-    <option name="data">
-      <map>
-        <entry key="nele.mock.data" value="false" />
-      </map>
-    </option>
-  </component>
-</application>
